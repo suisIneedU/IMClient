@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FriendList</class>
+ <widget class="QDialog" name="FriendList">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>385</width>
+    <height>867</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>宋体</family>
+    <pointsize>20</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="pb_icon">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>30</y>
+     <width>60</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>60</width>
+     <height>60</height>
+    </size>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lb_name">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>30</y>
+     <width>191</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Sitka Text</family>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>suis</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="le_feeling">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>60</y>
+     <width>191</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Sitka Small</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>suis I need u</string>
+   </property>
+  </widget>
+  <widget class="QTabWidget" name="tw_page">
+   <property name="geometry">
+    <rect>
+     <x>-4</x>
+     <y>99</y>
+     <width>401</width>
+     <height>681</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>宋体</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="currentIndex">
+    <number>2</number>
+   </property>
+   <widget class="QWidget" name="page_space">
+    <attribute name="title">
+     <string>空间</string>
+    </attribute>
+   </widget>
+   <widget class="QWidget" name="page_message">
+    <attribute name="title">
+     <string>消息</string>
+    </attribute>
+   </widget>
+   <widget class="QWidget" name="page_friend">
+    <attribute name="title">
+     <string>联系人</string>
+    </attribute>
+    <widget class="QScrollArea" name="scrollArea">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>-10</y>
+       <width>391</width>
+       <height>671</height>
+      </rect>
+     </property>
+     <property name="widgetResizable">
+      <bool>true</bool>
+     </property>
+     <widget class="QWidget" name="scrollAreaWidgetContent">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>389</width>
+        <height>669</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QWidget" name="widget_list" native="true">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="font">
+          <font>
+           <family>宋体</family>
+           <pointsize>15</pointsize>
+          </font>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="verticalSpacer">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>632</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="pb_menu">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>800</y>
+     <width>40</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pb_tool1">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>800</y>
+     <width>40</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pb_tool2">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>800</y>
+     <width>40</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pb_tool3">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>800</y>
+     <width>40</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
